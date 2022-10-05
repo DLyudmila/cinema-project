@@ -1,6 +1,6 @@
 # Cinema project
 <br/>**Project description:**
-<br/> A simple web application, which has been written using Spring technologies, that supports authentication, authorization, and CRUD operations(see project's features). 
+<br/> A simple web application, which has been written using Spring technologies, that supports authentication, authorization, and CRUD operations(see project's features). There are two roles in the project: users and admins. Users are able to get the information about movies, cinema halls, add tickets to their shopping carts and complete orders. Admins can create information about movies, add cinema halls, change and delete information about it.
 <br/>
 <br/>**Features:**
 <br/>:arrow_forward: Authentication, authorization and creating of new users;
@@ -34,16 +34,16 @@
 <br/>- Java (11);
 <br/>- Apache Tomcat 9.0.63;
 <br/>- MySQL 8.0 CE;
-<br/>- Hibernate;
+<br/>- Hibernate 5.4.27;
 <br/>- Spring Core;
 <br/>- Spring MVC;
-<br/>- Maven;
+<br/>- Maven 3.8.0;
 <br/>- Postman;
 <br/>- Spring Security.
 <br/>:eyes: **How to run the project:**
 - You will need an installed environment Intellij Idea Ultimate 2022.1.2 to run Java code;
 - You will also need installed MySQL 8.0 CE and Apache Tomcat 9.0.63;
-- Clone this project
-- Set up DB's parameters in db.properties
+- Clone this project using fork
+- Set up DB's parameters in db.properties (driver, url, username and password from database)
 - Run the Apache Tomcat.
 - You can use already initialized data(from DataInitializer)
